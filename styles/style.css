@@ -131,7 +131,7 @@
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     ;
-    margin: 120px 140px;
+    margin: 120px 290px;
     border-radius: 15px;
 
 }
@@ -177,8 +177,8 @@
 .main-offer-container {
     display: flex;
     justify-content: space-around;
-    margin: 120px 140px;
-    background: #FFF;
+    margin: 120px 290px;
+    background: white;
 }
 
 .offer-heading-1 {
@@ -214,12 +214,15 @@
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 40px;
-    margin-bottom: 0 auto;
+    margin: 0 auto;
+    max-height: 280px;
+    max-width: 280px;
 
 }
 
 .offer-heading-3 {
     color: #F00;
+    text-align: right;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     margin-top: 120px;
@@ -229,5 +232,48 @@
     width: 140px;
     height: 140px;
     padding-top: 40px;
-    
+    margin-left: 100px;
+}
+
+/* portfolio section started */
+.portfolio-container {
+    background: white;
+    margin: 290px;
+    text-align: left;
+
+
+}
+
+.portfolio-heading-1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.portfolio-heading-2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.portfolio-pictures {
+    display:flex;
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+    margin: 48px 45px;
 }
