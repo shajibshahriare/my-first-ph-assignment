@@ -52,7 +52,7 @@
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    padding-bottom: 48px;
+    margin-bottom: 40px;
 
 }
 
@@ -60,12 +60,18 @@
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 15px;
+
 }
 
 .ending {
     color: #070211;
     font-size: 48px;
-    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.pcture-1 {
+    margin-bottom: 100px;
 }
 
 /* party section style */
@@ -198,6 +204,7 @@
     font-size: 48px;
     margin-bottom: 8px;
 }
+
 .offer-heading-3 {
     color: #F00;
     text-align: right;
@@ -205,6 +212,7 @@
     font-size: 48px;
     margin-top: 120px;
 }
+
 .offer-details {
     color: rgba(7, 2, 17, 0.60);
     text-align: left;
@@ -340,7 +348,7 @@
     height: 45px;
     background: #FFF;
     border: none;
-    border-radius: 50px ;
+    border-radius: 50px;
     outline: none;
     border: none;
     align-items: center;
@@ -372,7 +380,7 @@
     margin: 0;
     border: none;
     outline: none;
-    
+
 
 }
 
@@ -487,11 +495,13 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-.copyright-section{
+
+.copyright-section {
     margin: 50px auto 120px 270px;
 }
-.Unsubscribe{
- margin: 50px 270px 120px auto;  
- text-decoration: none;
- color: #FFF;
+
+.Unsubscribe {
+    margin: 50px 270px 120px auto;
+    text-decoration: none;
+    color: #FFF;
 }
