@@ -182,7 +182,8 @@
 
 .main-offer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     margin: 120px 290px;
     background: white;
 }
@@ -466,8 +467,9 @@ footer {
 }
 
 .line {
+    color: rgba(255, 255, 255, 0.15);
     width: 1370px;
-    height: 1px;
+    height: 0 ;
     display: flex;
     justify-content: center;
     align-items: center;
